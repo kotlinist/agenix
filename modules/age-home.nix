@@ -234,7 +234,6 @@ in
       config = {
         ProgramArguments = [ mountingScript ];
         KeepAlive = {
-          Crashed = false;
           SuccessfulExit = false;
         };
         RunAtLoad = true;
